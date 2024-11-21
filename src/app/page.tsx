@@ -1,10 +1,7 @@
-import HomeButton from "@/components/buttons/home";
-import SignInButton from "@/components/buttons/sign-in";
-import SignUpButton from "@/components/buttons/sign-up";
-import SocialIcons from "@/components/social-media";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
-    <><HomeButton /><SignInButton /><SignUpButton /><SocialIcons /></>
+    <Navbar />
   );
 }

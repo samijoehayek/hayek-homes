@@ -16,6 +16,7 @@ const SignInButton: React.FC<SignInButtonProps> = ({ onClick, className }) => {
     <div
       onClick={onClick}
       className={`
+        px-8
         text-[#661ED3] 
         cursor-pointer 
         inline-block 
